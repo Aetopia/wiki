@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "wiki",
+  base: "/bedrock-native-modding/",
   
   title: "Bedrock Native Modding Wiki",
   description: "A knowledge hub for making native mods for Minecraft: Bedrock Edition",
