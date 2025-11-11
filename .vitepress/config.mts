@@ -14,8 +14,10 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Beginner\'s Guide',
+        collapsed: true,
         items: [
-          { text: 'Prerequisites', link: '/beginners-guide/prerequisites' },
+          { text: 'Introduction', link: '/beginners-guide/introduction' },
+          { text: 'Development Setup', link: '/beginners-guide/development-setup' },
           { text: 'Getting Started', link: '/beginners-guide/getting-started' },
           { text: 'Your First Hook', link: '/beginners-guide/your-first-hook' }
         ]

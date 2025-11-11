@@ -40,7 +40,7 @@ target_link_libraries(<project_name_here> PRIVATE
         minhook)
 ```
 
-## Adding your first Hook
+## Adding Your First Hook
 
 We will be using `libhat` to scan for one of Minecraft's functions. Specifically, we will scan for `Dimension::getTimeOfDay`. As of 1.21.120, the signature for `getTimeOfDay` is `44 8B C2 B8 F1 19 76 05 F7 EA`.
 
