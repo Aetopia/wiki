@@ -25,8 +25,11 @@ CheckNetIsolation.exe LoopbackExempt -is -n="Microsoft.MinecraftUWP_8wekyb3d8bbw
 ```
 
 ### Capture Directory
+Under **Tools** > **Settings** > **General**, set both capture directories to locations under the game's `RoamingState` folder:
 
-Under **Tools** > **Settings** > **General**, set both capture directories to locations under the game's `RoamingState` folder.
+`C:\Users\User\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\RoamingState`
+
+![img.png](/tools/renderdoc/settings.png)
 
 ### DLL Permissions
 
@@ -39,7 +42,7 @@ You can find the DLL in the installation directory of RenderDoc, eg. `C:\Program
 RenderDoc needs to load before the graphics API is initialized.
 RenderDoc can't start UWP apps on its own, but there is a workaround for Minecraft.
 
-Hidden in `options.txt`, there is a setting called load_renderdocdll. 
+Hidden in `options.txt`, there is a setting called `load_renderdocdll`. 
 Set it to 1 to reload the renderer after Minecraft is done loading.
 
 ### Actually Capturing
