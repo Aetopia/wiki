@@ -1,4 +1,9 @@
 # Your First Hook
+
+::: info
+You can find the reference code for this section [here](https://github.com/bedrock-native-modding/beginners-guide-example/tree/sections/your-first-hook)
+:::
+
 Now that you have your mod working, you probably want it to do something instead of crashing the game. To do this, you'll need to add some dependency libraries.
 
 First, we will be using `libhat`. This is an essential library for native modding, for reasons we'll get into shortly.

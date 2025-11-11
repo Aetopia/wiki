@@ -1,5 +1,9 @@
 # Getting Started
 
+::: info
+You can find the reference code for this section [here](https://github.com/bedrock-native-modding/beginners-guide-example/tree/sections/getting-started).
+:::
+
 Now that you've installed the [Prerequisites](/beginners-guide/prerequisites.md), you're ready to make your first mod!
 
 Start by creating a **New Project** in CLion, and selecting **C++ Library**. Set the **Language standard** to at least C++20, and the **Library type** to shared. This will make your code compile to a `.dll` file that can be injected into the game.
