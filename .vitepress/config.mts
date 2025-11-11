@@ -27,7 +27,8 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Clang', link: '/tools/clang' },
-          { text: 'Using ld to embed resources', link: '/tools/ld-for-embedding-resources' }
+          { text: 'Using ld to embed resources', link: '/tools/ld-for-embedding-resources' },
+          { text: 'RenderDoc', link: '/tools/renderdoc' },
         ]
       },
       {
